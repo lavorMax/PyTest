@@ -1,5 +1,5 @@
 import pytest
-from PageObj import Page
+from page import Page
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 
@@ -18,3 +18,4 @@ def browser():
         
     return browser
        
+
